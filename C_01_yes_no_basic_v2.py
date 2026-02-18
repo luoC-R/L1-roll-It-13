@@ -25,3 +25,10 @@ while True:
     print(f"you chose {want_instructions}")
 
 print("we done")
+
+def instruction():
+    print('''
+    
+    
+    ''')
+

@@ -29,3 +29,19 @@ print(f"Computer -Roll 1: {comp_one} \t| Roll 2: {comp_two} \t| Total: {comp_poi
 # Let the user know if they qualify for double point
 if double_points == "yes":
     print("Great news - if you win, you will earn double points!")
+
+
+
+
+# if user has fewer points, they start the game
+if user_points < comp_points:
+    print("You start because your initial roll was less than the computer\n")
+
+# if user and computer roll equal points...
+elif user_points == comp_points:
+    print("The initial rolls were the same, the user start!")
+
+# if computer has fewer points, switch the computer to 'player 1'
+else:
+    player_1, player_2 = player_2, player_1
+    first, second = second, first
