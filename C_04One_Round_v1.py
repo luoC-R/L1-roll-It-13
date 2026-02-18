@@ -1,7 +1,7 @@
 import random
 
 
-# Intialise rounds points
+# Initialise rounds points
 user_points = 0
 comp_points = 0
 double_points = "no"
